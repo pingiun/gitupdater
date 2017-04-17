@@ -4,4 +4,4 @@ ENV FLASK_APP server.py
 
 ENV GITUPDATER_SETTINGS settings.py
 
-CMD [ "flask", "run" ]
+CMD [ "flask", "run", "--host=0.0.0.0" ]
