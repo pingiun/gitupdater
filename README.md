@@ -6,7 +6,7 @@ gitupdater can be used to automatically update git repo's with a webhook.
 
 1. Clone a github repository somewhere.
 2. Set a webhook for the repository. (Use the JSON format)
-3. Optionally set a secret in settings.py and you webhook
+3. Optionally set a secret in settings.py and your webhook
 4. Fill in the path for the repository in settings.py
 5. Run `FLASK_APP=server.py GITUPDATER_SETTINGS=settings.py flask run` or something like these docker commands:
 ```
