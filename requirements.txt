@@ -1,2 +1,2 @@
-flask==0.12
+flask==1.0
 GitPython==2.1.3
